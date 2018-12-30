@@ -30,6 +30,10 @@ $ vim .env
 DB_DATABASE={db_name}
 DB_USERNAME={db_user}
 DB_PASSWORD={db_password}
+
+BROADCAST_DRIVER=redis
+
+QUEUE_CONNECTION=redis
 ```
 
 ## Database migrate
